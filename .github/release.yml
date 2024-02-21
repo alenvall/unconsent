@@ -1,0 +1,22 @@
+name: Zip Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-repository:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Zip the repository
+        run: zip -r unconsent.zip .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: unconsent
+          path: unconsent.zip
