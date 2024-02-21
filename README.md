@@ -10,7 +10,7 @@ It's still being verified so it's not yet available on the Chrome web store.
 
 ### Loading the unpacked extension
 
-1. Download the zip file from the builds page.
+1. Download the [zip artifact](https://github.com/damoonrashidi/unconsent/actions/runs/7991074581) from the latest action.
 1. Unzip the zipfile
 1. Go to manage extensions in chrome
 1. Load unpacked
