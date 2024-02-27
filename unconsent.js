@@ -8,6 +8,8 @@ const bodyObserver = new MutationObserver(() => {
     "fides",
     "ch2",
     "termly",
+    "qc-cmp2",
+    "cc-banner",
   ];
   if (document.body.style.overflow === "hidden") {
     document.body.style.overflow = "unset";
