@@ -12,7 +12,7 @@ const bodyObserver = new MutationObserver(() => {
     "cc-banner",
     "usercentrics-root",
   ];
-  if (document.body.style.overflow === "hidden") {
+  if (document.body.style.overflow.includes("hidden")) {
     document.body.style.overflow = "unset";
   }
 
