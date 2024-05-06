@@ -10,6 +10,7 @@ const bodyObserver = new MutationObserver(() => {
     "termly",
     "qc-cmp2",
     "cc-banner",
+    "usercentrics-root",
   ];
   if (document.body.style.overflow === "hidden") {
     document.body.style.overflow = "unset";
